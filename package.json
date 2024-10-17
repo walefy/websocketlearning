@@ -1,0 +1,21 @@
+{
+  "name": "websocketlearning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsnd --transpile-only src/server.ts",
+    "client": "tsnd --transpile-only src/client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ws": "8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "8.5.12",
+    "ts-node-dev": "2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
